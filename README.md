@@ -1,26 +1,26 @@
-# ML & Markov-Based Decision Support System for PM-JAY Cardiac Pricing
-
+# PMJAY_Price_Variation_Analysis
 ## Objective
-To develop an end-to-end **decision support system** that evaluates PM-JAY cardiac package pricing by integrating **health economics, machine learning, and Markov decision modeling**, with the goal of reducing catastrophic out-of-pocket expenditure (OOPE) in India.
-
-This project extends beyond price comparison and provides **data-driven policy recommendations** for tariff optimization and financial risk protection.
-
----
-
-## Background
-PM-JAY aims to provide financial protection for secondary and tertiary healthcare. However, large price differences between PM-JAY reimbursement rates and private hospital charges—especially for cardiac procedures—may limit provider participation and increase patient OOPE.
-
-This project addresses this challenge using **advanced analytics and decision modeling**.
-
----
-
+Comparison of PM-JAY package rates and private hospital prices for cardiac procedures in India
 ## Data Sources
-- Publicly available PM-JAY Health Benefit Package (HBP) rates  
-- Market-reported private hospital pricing data for cardiac procedures  
-- Geographic and system-level variables (state, hospital type, procedure category)
+- Publicly available PM-JAY Health Benefit Package rates
+- Market-reported private hospital price information
 
-> All data are secondary, anonymized, and used for academic and policy demonstration purposes.
+## Methods
+- Data cleaning and preparation using Python
+- Comparative analysis using SQL
+- Data visualization using Tableau Public
 
----
+## Key Findings
+- Private hospital prices are approximately 2–4 times higher than PM-JAY package rates
+- The largest price gaps are observed in major cardiac procedures such as valve replacements
 
-## Project Structure
+## Policy Relevance
+Significant price differences may affect private hospital participation under PM-JAY and contribute to out-of-pocket expenditure for patients.
+
+## Tools Used
+- Python (pandas)
+- SQL
+- Tableau Public
+
+## Dashboard
+The interactive dashboard is available in the dashboard folder of this repository.this is my old one so give new one to paste
